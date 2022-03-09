@@ -1,0 +1,71 @@
+/* Beginning of Slide Animation  */ 
+.slide-animation {   
+    background: #f2f2f2 url(https://cdn.sanity.io/images/c1chvb1i/production/a1e8f6671a9476a30b59d65af728549b8fada211-1100x735.jpg/AIR-Jordan-1-pile-colourways.jpg) no-repeat 0 0;   
+    background-size: auto;   
+    width: 100%;   
+    margin: 0;   
+    text-align: center;   
+    height: 300px;   
+    padding-top: 120px;   
+    box-sizing: border-box;   
+    -webkit-transform: scale(1,.9);   
+    -webkit-animation: slide 20s linear infinite; } 
+    
+    @-webkit-keyframes slide {   
+        from { background-position: 0 0; }   to { background-position: -1000px 0; } }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
+h1 { 
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+h4{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+ 
+.row{
+    background-color: black;
+}
+.column{
+    background-color: black;
+}
+
+/*-------------------------------------------------------------------------*/
+.Air {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Jordan {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.videos {
+    background-color: black;
+}
+
+.fav {
+    background-color: black;
+    color: white;
+    text-align: center;
+} 
+
+.videos {
+    padding-left: 27%;
+
+}
